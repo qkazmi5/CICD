@@ -20,7 +20,7 @@ phases:
       - echo "Building Docker image..."
       - docker login -u "kazmi5" -p "321Softbiz@345"
       - docker build -t "kazmi5/simple-python-flask-app:latest" .
-      - docker push "qkazmi5/simple-python-flask-app:latest"
+      - docker push "kazmi5/simple-python-flask-app:latest"
   post_build:
     commands:
       - echo "Build completed successfully!"
