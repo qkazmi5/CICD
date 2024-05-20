@@ -18,8 +18,8 @@ phases:
       - echo "Running tests..."
       # - cd day-13/simple-python-app/
       - echo "Building Docker image..."
-      - docker login -u "qkazmi5" -p "321Softbiz@345"
-      - docker build -t "qkazmi5/simple-python-flask-app:latest" .
+      - docker login -u "kazmi5" -p "321Softbiz@345"
+      - docker build -t "kazmi5/simple-python-flask-app:latest" .
       - docker push "qkazmi5/simple-python-flask-app:latest"
   post_build:
     commands:
